@@ -35,6 +35,8 @@
     >
 </p>
 
+## This is a fork of goldspecdigital/laravel-eloquent-uuid to allow use in Laravel 5.7
+
 ## Introduction
 
 A simple drop-in solution for providing UUID support for the IDs of your
@@ -50,12 +52,13 @@ version of Laravel you have installed:
 
 | Laravel | This package |
 | ------- | ------------ |
+| `v5.7.*` | `v5.7.0` |
 | `v5.8.*` | `v1.*` |
 
 You can install the package via composer:
 
 ```bash
-composer require goldspecdigital/laravel-eloquent-uuid:~v1.2
+composer require goldspecdigital/laravel-eloquent-uuid:~v5.7.0
 ```
 
 ## Usage
